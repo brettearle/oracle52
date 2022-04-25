@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 /******************************************
 /* CSS
 /*******************************************/
@@ -5,6 +9,7 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
+  font-size: 1.6rem;
 }
 
 /******************************************
@@ -12,10 +17,31 @@
 /*******************************************/
 img{
   display: block;
-  margin: 0 auto;
+  margin: 2rem auto;
+  height: 314px;
+  width: 226px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid aliceblue;
+  padding: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  max-width: 75%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
